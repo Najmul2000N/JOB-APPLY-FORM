@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: capitalize;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: #CCCCCC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page {
+  min-width: 50%;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  padding: 20px;
+  position: relative;
+}
+.heading {
+  font-size: 40px;
+  font-weight: 600;
+  
+}
+
+.heading>span{
+    font-size: 25px;
+
+}
+
+input , textarea , select{
+    padding: 8px;
+    font-size: 15px;
+}
+textarea{
+    resize: none;
+}
+
+
+.firstname-secondname {
+    width: 100%;
+    display: flex;
+    letter-spacing: 2px;
+    gap: 25px;
+    
+}
+.firstname{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.secondname{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.email-job-role{
+    width: 100%;
+  display: flex;
+  letter-spacing: 2px;
+  gap: 25px;
+
+}
+.email {
+    width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.job-role {
+    width: 50%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.three {
+    width: 100%;
+  letter-spacing: 2px;
+
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.four {
+    width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  letter-spacing: 2px;
+
+}
+.city {
+    width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.pincode {
+    width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.five {
+    width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  letter-spacing: 2px;
+
+}
+.date {
+    width: 50%;
+
+  display: flex;
+  flex-direction: column;
+}
+.file {
+    width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.file>input{
+    border: 1px solid grey;
+}
+button{
+
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+.btn{
+    display: flex;
+    justify-content: end;
+}
